@@ -1,0 +1,46 @@
+@media(max-width:1200px){
+    .a1{
+        
+    height: 100%;
+    width: 100%;
+            
+    
+        }
+        
+    }
+ @media(max-width:900px)  {
+
+.s1{
+    width: 500px;
+}
+.w1{
+    margin-top: 900px;
+}
+ }
+ @media(max-width:600px)  {
+
+    .a1{
+        
+        height: 50%;
+        width: 50px;
+                
+        
+            }
+         }
+    
+        /* .demo2{
+            font-size: 45px;
+    
+        }
+    
+    }
+    @media(max-width:900px)
+    {
+        #demo1{
+            font-size: 30px;
+        }
+        .demo2{
+            font-size: 30px;
+    
+        }
+     */

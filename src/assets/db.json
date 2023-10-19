@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Boys Navy Polka Dot Print Shirt And Pant Set With Bow",
+      "categoryId": 2,
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": 800,
+      "image": "https://i.postimg.cc/yNtwQ8Yy/0ca90593-db57-45d2-a1d3-f6b7b79e816a-medium.jpg",
+      "rating": 4.5,
+      "review": 23,
+      "vendor_name": "hopscotch"
+    },
+    {
+      "id": 2,
+      "productName": "Girls White Floral Embroidered Onesie",
+      "categoryId": 2,
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": "850",
+      "image": "https://i.postimg.cc/mgXk8Jzy/13895d1d-12eb-4ad5-a424-b44119357956-full.jpg",
+      "rating": 4,
+      "review": 273,
+      "vendor_name": "hopscotch"
+    },
+    {
+      "id": 4,
+      "productName": "Girls Beige All-Over Print Full-Sleeve Casual Dress with Headband",
+      "categoryId": 4,
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": 750,
+      "image": "https://i.postimg.cc/RF8bdS4x/03dfa8bb-7674-4d82-ae6e-4dc83cab3f37-full.jpg",
+      "rating": 5,
+      "review": 201,
+      "vendor_name": "hopscotch"
+    },
+    {
+      "id": 5,
+      "productName": "Girls Light Blue Solid Slim Fit Blouse and Shorts Set",
+      "categoryId": 4,
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": 934,
+      "image": "https://i.postimg.cc/qvhqDQsf/eb978fe2-dbab-480e-8284-a1adca6c68e2-full.jpg",
+      "rating": 4.6,
+      "review": 190,
+      "vendor_name": "hopscotch"
+    },
+    {
+      "id": 6,
+      "productName": "Boys Blue Animal Print Tee, Jacket And Pant Set",
+      "categoryId": 2,
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": 1590,
+      "image": "https://i.postimg.cc/0jMh16cN/5749f7b5-9db3-49f7-b728-2173127459a3-full.jpg",
+      "rating": 4.5,
+      "review": 23,
+      "vendor_name": "hopscotch"
+    },
+    {
+      "id": 7,
+      "productName": "Unisex White Graphic Print Bodysuit",
+      "categoryId": 1,
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": 599,
+      "image": "https://i.postimg.cc/R0WYHJxL/719476c8-02a3-429f-8902-c2fd15e24945-full.jpg",
+      "rating": 4.2,
+      "review": 90,
+      "vendor_name": "hopscotch"
+    },
+    {
+      "id": "10",
+      "productName": "Boys Green All-Over Print T-Shirt With Jacket & Pant Set",
+      "categoryId": "4",
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": "1200",
+      "image": "https://i.postimg.cc/J4dKtbcp/3e42ee17-76a5-48a3-8fdf-2941feaf18ad-full.jpg",
+      "rating": "4.5",
+      "review": "189",
+      "vendor_name": "hopscotch"
+    },
+    {
+      "id": "8",
+      "productName": "Girls Navy Floral Print Top and Pant Set with Headband",
+      "categoryId": "2",
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": "959",
+      "image": "https://i.postimg.cc/VsHmsVTp/74350ca3-9ba4-479d-9c17-b9083f1de4c5-full.jpg",
+      "rating": "4.7",
+      "review": "38",
+      "vendor_name": "hopscotch"
+    },
+    {
+      "id": "9",
+      "productName": "Girls Beige Floral Embroidered Blouse and Skirt Set",
+      "categoryId": "1",
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": "1300",
+      "image": "https://i.postimg.cc/sfPHwQPc/91fff7f4-dbcb-41db-bec6-81efb620fbb4-full.jpg",
+      "rating": "3.9",
+      "review": "38",
+      "vendor_name": "hopscotch"
+    },
+    {
+      "id": "11",
+      "productName": "Girls White Text Print Onesie And Skirt Set with Headband",
+      "categoryId": "1",
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": "719",
+      "image": "https://i.postimg.cc/SRtgC887/48a855cf-3403-4dab-8aae-6e2f2dad0c62-full.jpg",
+      "rating": "4",
+      "review": "76",
+      "vendor_name": "hopscotch"
+    },
+    {
+      "id": "12",
+      "productName": "Boys Multi Coloured Checkered Shirt and Shorts Set",
+      "categoryId": "3",
+      "description": "*Get it in 3-4 days,*Cash on delivery available,*15 days return,*15 days exchange",
+      "price": "1048",
+      "image": "https://i.postimg.cc/0QGQzdTF/efce08b6-a0e8-41f0-b971-66c6011eeba6-full.jpg",
+      "rating": "3.6",
+      "review": "38",
+      "vendor_name": "hopscotch"
+    }
+  ]
+}

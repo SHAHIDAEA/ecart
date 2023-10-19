@@ -1,0 +1,19 @@
+<h1 class="text-center container mt-5" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(49, 67, 100);">Edit Product</h1>
+
+<form   action="" class="w-25 container text-center">
+    <input [(ngModel)]="pdata.productName" type="text" id="p2" placeholder="Product Name" class="form-control mt-2" name="pn1">
+
+      <input [(ngModel)]="pdata.categoryId"  type="text" id="p3" placeholder="Category Id" class="form-control mt-2" name="pn2">
+
+    <input [(ngModel)]="pdata.description"  type="text" id="p4" placeholder="Description" class="form-control mt-2" name="pn3">
+    <input [(ngModel)]="pdata.price"  type="text" id="p5" placeholder="Price" class="form-control mt-2" name="pn4">
+
+    <input [(ngModel)]="pdata.image" type="text" id="p6" placeholder="Image" class="form-control mt-2" name="pn5">
+
+    <input [(ngModel)]="pdata.rating" type="text" id="p7" placeholder="Rating" class="form-control mt-2" name="pn6">
+
+    <input [(ngModel)]="pdata.review" type="text" id="p8" placeholder="Review" class="form-control mt-2" name="pn7">
+
+    <input [(ngModel)]="pdata.vendor_name" type="text" id="p9" placeholder="Vendor Name" class="form-control mt-2" name="pn8">
+    <button (click)="update()" type="submit" class="btn btn btn-outline-light mt-3 mb-4" style="background-color: rgb(121, 163, 149);">Update</button>
+</form>

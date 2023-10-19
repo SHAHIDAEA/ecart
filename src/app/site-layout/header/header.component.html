@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(168, 92, 0);">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(6, 6, 73);" ><span style="color: rgb(114, 28, 28);">B</span>aby <span style="color: rgb(114, 28, 28);">M</span>oon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item"><a class="nav-link active border border-dark " style="border-radius: 10px; border: 10px;  " aria-current="page" href="products/add-products"><strong>Add Product</strong></a></li>
+                        <div class="container-fluid">
+                            <form class="d-flex ms-5" role="search">
+                              <input [(ngModel)]="searchData" (keyup)="accessData($event)" class="form-control me-2" name="search" id="k1" type="search" placeholder="Search Products" aria-label="Search">
+                            </form>
+                          </div>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>

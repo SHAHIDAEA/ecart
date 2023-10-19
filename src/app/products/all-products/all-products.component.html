@@ -1,0 +1,86 @@
+<header class=" py-5" >
+    <div class=" ">
+        <div class="text-center text-white">
+           <!-- <img id="a1" style="height: 500px;" src="https://i.postimg.cc/qRwz3f7H/Frame-1.png" alt=""> -->
+           <img src="https://i.postimg.cc/qRwz3f7H/Frame-1.png" class="img-fluid" alt="...">
+        </div>
+    </div>
+</header>
+  <div class=" text-center" id="s1">
+    <div class="row">
+        <div class="col-lg-2 col-md-6 col-sm-12" (click)="categoryProduct('')">
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.postimg.cc/PxXMYhtd/6264705-three-beautiful-angels-with-soft-red-hearts-over-gray.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <a  class="btn btn-outline-light" style="background-color: rgb(121, 163, 149);">Show All</a>
+                </div>
+              </div>
+            
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12 ms-5" >
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.postimg.cc/CLsrZvCC/istockphoto-504525948-1024x1024.jpg" class="card-img-top" alt="...">
+                <div class="card-body"  (click)="categoryProduct(1)">
+                  <a   class="btn btn-outline-light" style="background-color: rgb(121, 163, 149);">Upto 6 Months</a>
+                </div>
+              </div>
+            
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12 ms-5" (click)="categoryProduct(2)">
+            <div class="card" style="width: 18rem; ">
+                <img  src="https://i.postimg.cc/ZYwCTN0f/Elf-Hat-Red-White-LWMSJu-Danzy-Tampa-523-1024x1024-2x.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <a  class="btn btn-outline-light" style="background-color: rgb(121, 163, 149);">6-12 Months</a>
+                </div>
+              </div>
+            
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12 ms-5" (click)="categoryProduct(3)">
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.postimg.cc/50FsSzjb/12-15-months.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <a  class="btn btn-outline-light" style="background-color: rgb(121, 163, 149);">12-18 Months</a>
+                </div>
+              </div>
+            
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12 ms-5" style="height: 30px;" (click)="categoryProduct(4)">
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.postimg.cc/xTqBXX3j/offset-981490.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <a  class="btn btn-outline-light "style="background-color: rgb(121, 163, 149);">18-24 Months</a>
+                </div>
+              </div>
+            
+        </div>
+
+    </div>
+  </div>
+<!-- Section-->
+<section class="py-5" id="w1">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div *ngFor="let i of categoryProducts |search:SearchString:'productName'" class="col mb-5">
+                <div class="card h-100" style="background-color: rgb(146, 196, 179);">
+                    <!-- Product image-->
+                    <img class="card-img-top" src={{i.image}} alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgb(49, 67, 100);">{{i.productName}}</h5>
+                            <!-- Product price-->
+                           <strong style="color:black;"> ₹{{i.price}}</strong>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent" >
+                        <div class="text-center"><a class="btn btn-outline-light mt-auto" style="background-color: rgb(168, 92, 0);" href="products/view-products/{{i.id}}">Quick View</a></div>
+                    </div>
+                </div>
+            </div>
+                    
+                </div>
+            </div>
+      
+</section>
